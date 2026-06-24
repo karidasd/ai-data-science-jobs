@@ -3,35 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI & Data Science Job Radar</title>
+    <title>AI & Data Science Job Radar V2</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="glow"></div>
     <div class="container">
         <header>
             <h1>AI & Data Science <span class="accent">Job Radar</span></h1>
-            <p>Live analysis of global remote job requirements.</p>
+            <p>Live analysis of global remote job requirements & tech stack trends.</p>
             <div class="stats" id="stats-container">
                 <!-- Injected via JS -->
             </div>
         </header>
 
         <main>
-            <div class="radar-container">
-                <div class="radar-header">
-                    <h2>Most In-Demand Tech Skills</h2>
+            <section class="stack-section">
+                <div class="section-header">
+                    <h2>Tech Stack Market Share</h2>
                     <p>Based on NLP extraction from live job descriptions.</p>
                 </div>
-                <div id="skills-list" class="skills-list">
-                    <!-- Skills injected here -->
+                <div class="categories-grid" id="categories-grid">
+                    <!-- Categories injected here -->
                 </div>
-            </div>
+            </section>
+
+            <section class="jobs-section">
+                <div class="section-header">
+                    <h2>🔥 Live Job Board</h2>
+                    <p>The most recent remote opportunities matching these skills.</p>
+                </div>
+                <div class="job-list" id="job-list">
+                    <!-- Jobs injected here -->
+                </div>
+            </section>
         </main>
         
         <footer>
-            <p>Data sourced from Remotive & Jobicy APIs. Updated daily.</p>
+            <p>Data sourced from Remotive & Jobicy APIs. Auto-updated via GitHub Actions.</p>
         </footer>
     </div>
     <script src="script.js"></script>

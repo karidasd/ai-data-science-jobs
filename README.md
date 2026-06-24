@@ -1,29 +1,20 @@
-# 🎯 AI & Data Science Job Radar
+# 🎯 AI & Data Science Job Radar (V2.0)
 
 ![Automated](https://img.shields.io/badge/Automated-GitHub%20Actions-10b981?style=for-the-badge)
 ![NLP](https://img.shields.io/badge/Tech-Python%20NLP-fbbf24?style=for-the-badge)
 
-Ένα ραντάρ καριέρας για Data Scientists και AI Engineers. Το σύστημα σαρώνει καθημερινά εκατοντάδες Remote αγγελίες εργασίας από παγκόσμιες πλατφόρμες (για Data Science / AI) και εξάγει τα πιο περιζήτητα skills μέσω NLP Keyword Extraction.
+Ένα στρατηγικό εργαλείο καριέρας για Data Scientists και AI Engineers. Το σύστημα σαρώνει καθημερινά εκατοντάδες Remote αγγελίες εργασίας, εξάγει στατιστικά, αναλύει μισθούς και προβλέπει τάσεις!
 
-🔗 **[Δείτε το Live Dashboard](https://karidasd.github.io/ai-data-science-jobs/)** *(Ενεργοποιήστε τα GitHub Pages!)*
+🔗 **[Δείτε το Live Dashboard](https://karidasd.github.io/ai-data-science-jobs/)**
+
+## Τι νέο φέρνει η V2.0 (The Career Strategist)
+- **Tech Stack View**: Διαχωρισμός των δεξιοτήτων σε 3 κάρτες (Programming Languages, AI & ML, Cloud & MLOps).
+- **Market Momentum**: Υπολογισμός τάσεων (Trend Badges) - βλέπετε τι ανεβαίνει 📈 και τι πέφτει 📉 καθημερινά!
+- **Live Job Board**: Το dashboard δεν δείχνει μόνο ποσοστά, αλλά και τις **Top 30 σημερινές Remote αγγελίες εργασίας** με απευθείας links (Apply Now).
+- **Salary AI Extractor**: Αυτόματη εύρεση (μέσω Regex) και εξαγωγή του προσφερόμενου μισθού (π.χ. `$120k`) μέσα από το αχανές κείμενο της αγγελίας!
 
 ## Πώς Λειτουργεί
 1. **Data Collection**: Αντλεί ζωντανά δεδομένα από τα ελεύθερα APIs των `Remotive` και `Jobicy`.
-2. **Data Science Analysis**: Καθαρίζει τα HTML descriptions των αγγελιών και μετράει τη συχνότητα εμφάνισης συγκεκριμένων λέξεων-κλειδιών (Python, PyTorch, RAG, LangChain, Kubernetes, κ.ά.).
-3. **UI Dashboard**: Απεικονίζει τα αποτελέσματα σε ένα εντυπωσιακό, φουτουριστικό UI με CSS progress bars που δείχνουν το ακριβές % ζήτησης κάθε τεχνολογίας, βάσει των ανοιχτών θέσεων εργασίας!
-4. **100% Αυτοματοποίηση**: Τρέχει εντελώς δωρεάν 1 φορά την ημέρα μέσω GitHub Actions.
-
-## Τοπική Εκτέλεση (Local Setup)
-
-1. Κάντε Clone:
-```bash
-git clone https://github.com/karidasd/ai-data-science-jobs.git
-cd ai-data-science-jobs
-```
-
-2. Τρέξτε το Python Script (δεν απαιτούνται εξωτερικές βιβλιοθήκες, μόνο τα built-in του Python 3!):
-```bash
-python scripts/analyze_jobs.py
-```
-
-3. Ανοίξτε το αρχείο `index.html` σε οποιονδήποτε browser!
+2. **Analysis**: Το Python backend (`scripts/analyze_jobs.py`) διαβάζει τα HTML descriptions, εξάγει τα keywords, αποθηκεύει τους μισθούς και υπολογίζει τις αυξομειώσεις % από την προηγούμενη μέρα.
+3. **UI Dashboard**: Η HTML/Vanilla JS σελίδα χτίζει το εντυπωσιακό UI δυναμικά διαβάζοντας το JSON αρχείο.
+4. **100% Αυτοματοποίηση**: Όλη η διαδικασία "τρέχει" αυτόματα στους servers της Microsoft (GitHub Actions) 1 φορά την ημέρα. Δεν απαιτείται hosting!

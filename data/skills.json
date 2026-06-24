@@ -1,161 +1,515 @@
 {
-    "last_updated": "2026-06-24 11:16",
+    "last_updated": "2026-06-24 11:27",
     "total_jobs_analyzed": 98,
-    "skills": [
+    "categories": {
+        "Programming Languages": [
+            {
+                "skill": "SQL",
+                "count": 38,
+                "percentage": 38.8,
+                "trend": 0.0
+            },
+            {
+                "skill": "Python",
+                "count": 37,
+                "percentage": 37.8,
+                "trend": 0.0
+            },
+            {
+                "skill": "R",
+                "count": 7,
+                "percentage": 7.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Java",
+                "count": 7,
+                "percentage": 7.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "C++",
+                "count": 1,
+                "percentage": 1.0,
+                "trend": 0.0
+            }
+        ],
+        "AI & Machine Learning": [
+            {
+                "skill": "RAG",
+                "count": 60,
+                "percentage": 61.2,
+                "trend": 0.0
+            },
+            {
+                "skill": "LLM",
+                "count": 18,
+                "percentage": 18.4,
+                "trend": 0.0
+            },
+            {
+                "skill": "PyTorch",
+                "count": 6,
+                "percentage": 6.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Scikit-Learn",
+                "count": 6,
+                "percentage": 6.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "TensorFlow",
+                "count": 4,
+                "percentage": 4.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Hugging Face",
+                "count": 3,
+                "percentage": 3.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Pandas",
+                "count": 3,
+                "percentage": 3.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "LangChain",
+                "count": 2,
+                "percentage": 2.0,
+                "trend": 0.0
+            },
+            {
+                "skill": "NumPy",
+                "count": 2,
+                "percentage": 2.0,
+                "trend": 0.0
+            },
+            {
+                "skill": "OpenAI API",
+                "count": 1,
+                "percentage": 1.0,
+                "trend": 0.0
+            }
+        ],
+        "Cloud & MLOps": [
+            {
+                "skill": "Git",
+                "count": 46,
+                "percentage": 46.9,
+                "trend": 0.0
+            },
+            {
+                "skill": "AWS",
+                "count": 35,
+                "percentage": 35.7,
+                "trend": 0.0
+            },
+            {
+                "skill": "Airflow",
+                "count": 20,
+                "percentage": 20.4,
+                "trend": 0.0
+            },
+            {
+                "skill": "Snowflake",
+                "count": 14,
+                "percentage": 14.3,
+                "trend": 0.0
+            },
+            {
+                "skill": "Spark",
+                "count": 13,
+                "percentage": 13.3,
+                "trend": 0.0
+            },
+            {
+                "skill": "Tableau",
+                "count": 11,
+                "percentage": 11.2,
+                "trend": 0.0
+            },
+            {
+                "skill": "Azure",
+                "count": 9,
+                "percentage": 9.2,
+                "trend": 0.0
+            },
+            {
+                "skill": "Power BI",
+                "count": 9,
+                "percentage": 9.2,
+                "trend": 0.0
+            },
+            {
+                "skill": "GCP",
+                "count": 7,
+                "percentage": 7.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Docker",
+                "count": 5,
+                "percentage": 5.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Kubernetes",
+                "count": 3,
+                "percentage": 3.1,
+                "trend": 0.0
+            }
+        ]
+    },
+    "latest_jobs": [
         {
-            "skill": "RAG",
-            "count": 60,
-            "percentage": 61.2
+            "title": "Mid/Senior AI Cinematic Video Editor",
+            "company": "EverAI",
+            "url": "https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887",
+            "salary": "$20",
+            "skills": [
+                "LLM",
+                "Hugging Face",
+                "AWS",
+                "Git"
+            ]
         },
         {
-            "skill": "Git",
-            "count": 46,
-            "percentage": 46.9
+            "title": "Senior Independent AI Engineer / Architect",
+            "company": "A.Team",
+            "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+            "salary": "$200",
+            "skills": [
+                "LLM"
+            ]
         },
         {
-            "skill": "SQL",
-            "count": 38,
-            "percentage": 38.8
+            "title": "Frontend Developer",
+            "company": "Quinncia Inc",
+            "url": "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991",
+            "salary": null,
+            "skills": [
+                "RAG",
+                "Docker",
+                "Git"
+            ]
         },
         {
-            "skill": "Python",
-            "count": 37,
-            "percentage": 37.8
+            "title": "Tech Lead Full-Stack Rails Engineer",
+            "company": "Mitre Media",
+            "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+            "salary": "$160,000",
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "Hugging Face",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ]
         },
         {
-            "skill": "AWS",
-            "count": 35,
-            "percentage": 35.7
+            "title": "Head of Engineering",
+            "company": "Lemon.io",
+            "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2090983",
+            "salary": "$16",
+            "skills": [
+                "RAG"
+            ]
         },
         {
-            "skill": "Airflow",
-            "count": 20,
-            "percentage": 20.4
+            "title": "Quality Assurance Rater - German (Germany)",
+            "company": "TELUS Digital",
+            "url": "https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988",
+            "salary": null,
+            "skills": [
+                "Git"
+            ]
         },
         {
-            "skill": "LLM",
-            "count": 18,
-            "percentage": 18.4
+            "title": "Senior Data Scientist",
+            "company": "Lemon.io",
+            "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2090982",
+            "salary": "$11",
+            "skills": [
+                "Python",
+                "Java",
+                "C++",
+                "LLM",
+                "Pandas",
+                "NumPy",
+                "AWS",
+                "GCP",
+                "Azure"
+            ]
         },
         {
-            "skill": "Snowflake",
-            "count": 14,
-            "percentage": 14.3
+            "title": "iOS Developer",
+            "company": "nooro",
+            "url": "https://remotive.com/remote-jobs/software-development/ios-developer-1956455",
+            "salary": null,
+            "skills": [
+                "RAG",
+                "Git"
+            ]
         },
         {
-            "skill": "Spark",
-            "count": 13,
-            "percentage": 13.3
+            "title": "Inside Sales Contractor",
+            "company": "Credit Wellness, LLC",
+            "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+            "salary": "$1,000",
+            "skills": [
+                "RAG",
+                "Git"
+            ]
         },
         {
-            "skill": "Databricks",
-            "count": 12,
-            "percentage": 12.2
+            "title": "Online Data Analyst Canada (French Language)",
+            "company": "TELUS Digital",
+            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-french-language-2090945",
+            "salary": null,
+            "skills": [
+                "Git"
+            ]
         },
         {
-            "skill": "Tableau",
-            "count": 11,
-            "percentage": 11.2
+            "title": "Online Data Analyst United States Spanish speakers",
+            "company": "TELUS Digital",
+            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-united-states-spanish-speakers-2090946",
+            "salary": null,
+            "skills": [
+                "Git"
+            ]
         },
         {
-            "skill": "Azure",
-            "count": 9,
-            "percentage": 9.2
+            "title": "Online Data Analyst Canada",
+            "company": "TELUS Digital",
+            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-2090944",
+            "salary": null,
+            "skills": [
+                "Git"
+            ]
         },
         {
-            "skill": "Power BI",
-            "count": 9,
-            "percentage": 9.2
+            "title": "Head of Sales",
+            "company": "The Land Geek",
+            "url": "https://remotive.com/remote-jobs/sales/head-of-sales-2090943",
+            "salary": "$9,000",
+            "skills": [
+                "R",
+                "RAG"
+            ]
         },
         {
-            "skill": "R",
-            "count": 7,
-            "percentage": 7.1
+            "title": "Copywriter",
+            "company": "Coalition Technologies ",
+            "url": "https://remotive.com/remote-jobs/writing/copywriter-1749306",
+            "salary": "$30",
+            "skills": [
+                "RAG",
+                "Git"
+            ]
         },
         {
-            "skill": "Java",
-            "count": 7,
-            "percentage": 7.1
+            "title": "Staff Software Engineer, Product (Belo Horizonte)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2090910",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "GCP",
-            "count": 7,
-            "percentage": 7.1
+            "title": "Staff Software Engineer, Product (Florianópolis)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2090911",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "PyTorch",
-            "count": 6,
-            "percentage": 6.1
+            "title": "Staff Software Engineer, Product (Porto Alegre)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-porto-alegre-2090909",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Scikit-Learn",
-            "count": 6,
-            "percentage": 6.1
+            "title": "Staff Software Engineer, Product (São Paulo)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2090912",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Docker",
-            "count": 5,
-            "percentage": 5.1
+            "title": "Customer Operations & Writing Specialist",
+            "company": "Clerky, Inc.",
+            "url": "https://remotive.com/remote-jobs/customer-service/customer-operations-writing-specialist-2090942",
+            "salary": null,
+            "skills": [
+                "RAG"
+            ]
         },
         {
-            "skill": "TensorFlow",
-            "count": 4,
-            "percentage": 4.1
+            "title": "Staff Software Engineer, Product (Campinas)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2090913",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Pandas",
-            "count": 3,
-            "percentage": 3.1
+            "title": "Staff Product Engineer (Florianópolis)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2090899",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Kubernetes",
-            "count": 3,
-            "percentage": 3.1
+            "title": "Staff Product Engineer (Belo Horizonte)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2090900",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Hugging Face",
-            "count": 3,
-            "percentage": 3.1
+            "title": "Staff Product Engineer (Porto Alegre)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-porto-alegre-2090901",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Linux",
-            "count": 3,
-            "percentage": 3.1
+            "title": "Data Labeling Specialists",
+            "company": "Workada",
+            "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903",
+            "salary": "$18",
+            "skills": [
+                "Git"
+            ]
         },
         {
-            "skill": "NumPy",
-            "count": 2,
-            "percentage": 2.0
+            "title": "Staff Product Engineer (Campinas)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2090902",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ]
         },
         {
-            "skill": "Hadoop",
-            "count": 2,
-            "percentage": 2.0
+            "title": "Analyst, Health Plan Risk & Quality Reporting (Remote in FL)",
+            "company": "Molina Healthcare",
+            "url": "https://jobicy.com/jobs/147556-analyst-health-plan-risk-quality-reporting-remote-in-fl",
+            "salary": null,
+            "skills": [
+                "SQL",
+                "AWS",
+                "Azure",
+                "Power BI"
+            ]
         },
         {
-            "skill": "Kafka",
-            "count": 2,
-            "percentage": 2.0
+            "title": "Director I, Data Science, People, Purpose & Brand",
+            "company": "Liberty Mutual",
+            "url": "https://jobicy.com/jobs/147548-director-i-data-science-people-purpose-brand",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "RAG",
+                "Git"
+            ]
         },
         {
-            "skill": "LangChain",
-            "count": 2,
-            "percentage": 2.0
+            "title": "Ontology Architect",
+            "company": "Tiger Analytics",
+            "url": "https://jobicy.com/jobs/147512-ontology-architect",
+            "salary": null,
+            "skills": [
+                "LLM",
+                "RAG"
+            ]
         },
         {
-            "skill": "C++",
-            "count": 1,
-            "percentage": 1.0
+            "title": "Applied Data Scientist / Machine Learning Engineer (Decision Intelligence)",
+            "company": "WorkWave",
+            "url": "https://jobicy.com/jobs/147495-applied-data-scientist-machine-learning-engineer-decision-intelligence",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Airflow",
+                "Snowflake"
+            ]
         },
         {
-            "skill": "Keras",
-            "count": 1,
-            "percentage": 1.0
-        },
-        {
-            "skill": "OpenAI",
-            "count": 0,
-            "percentage": 0.0
+            "title": "Senior Data Engineer",
+            "company": "Experian",
+            "url": "https://jobicy.com/jobs/144463-senior-data-engineer-10",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "AWS",
+                "Spark",
+                "Git"
+            ]
         }
     ]
 }

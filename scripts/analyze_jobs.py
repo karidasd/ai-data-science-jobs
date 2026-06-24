@@ -4,44 +4,52 @@ import re
 import os
 from datetime import datetime
 
-SKILLS = {
-    "Python": ["python"],
-    "SQL": ["sql"],
-    "R": [" r ", " r,", " r.", ">r<", ">r ", " r\n"],
-    "Java": ["java ", "java,", "java."],
-    "C++": ["c++", "c/c++"],
-    "PyTorch": ["pytorch"],
-    "TensorFlow": ["tensorflow", " tf ", " tf,", " tf."],
-    "Keras": ["keras"],
-    "Scikit-Learn": ["scikit", "sklearn"],
-    "Pandas": ["pandas"],
-    "NumPy": ["numpy"],
-    "Spark": ["spark", "pyspark"],
-    "Hadoop": ["hadoop"],
-    "Kafka": ["kafka"],
-    "Docker": ["docker"],
-    "Kubernetes": ["kubernetes", "k8s"],
-    "AWS": ["aws", "amazon web services"],
-    "GCP": ["gcp", "google cloud"],
-    "Azure": ["azure"],
-    "Tableau": ["tableau"],
-    "Power BI": ["powerbi", "power bi"],
-    "LLM": ["llm", "large language model"],
-    "RAG": ["rag", "retrieval augmented generation", "retrieval-augmented generation"],
-    "LangChain": ["langchain"],
-    "OpenAI": ["openai"],
-    "Hugging Face": ["huggingface", "hugging face"],
-    "Airflow": ["airflow", "apache airflow"],
-    "Snowflake": ["snowflake"],
-    "Databricks": ["databricks"],
-    "Git": ["git", "github", "gitlab"],
-    "Linux": ["linux"]
+CATEGORIES = {
+    "Programming Languages": {
+        "Python": ["python"],
+        "SQL": ["sql"],
+        "R": [" r ", " r,", " r.", ">r<", ">r ", " r\n"],
+        "Java": ["java ", "java,", "java."],
+        "C++": ["c++", "c/c++"]
+    },
+    "AI & Machine Learning": {
+        "PyTorch": ["pytorch"],
+        "TensorFlow": ["tensorflow", " tf ", " tf,", " tf."],
+        "LLM": ["llm", "large language model"],
+        "RAG": ["rag", "retrieval augmented generation", "retrieval-augmented generation"],
+        "LangChain": ["langchain"],
+        "OpenAI API": ["openai", "gpt-4", "gpt-3"],
+        "Hugging Face": ["huggingface", "hugging face"],
+        "Scikit-Learn": ["scikit", "sklearn"],
+        "Pandas": ["pandas"],
+        "NumPy": ["numpy"]
+    },
+    "Cloud & MLOps": {
+        "AWS": ["aws", "amazon web services"],
+        "Docker": ["docker"],
+        "Kubernetes": ["kubernetes", "k8s"],
+        "GCP": ["gcp", "google cloud"],
+        "Azure": ["azure"],
+        "Airflow": ["airflow", "apache airflow"],
+        "Spark": ["spark", "pyspark"],
+        "Git": ["git", "github", "gitlab"],
+        "Snowflake": ["snowflake"],
+        "Tableau": ["tableau"],
+        "Power BI": ["powerbi", "power bi"]
+    }
 }
 
 def clean_html(raw_html):
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, ' ', raw_html)
     return cleantext.lower()
+
+def extract_salary(text):
+    # Regex to find patterns like $120k, $100,000, 150k USD
+    match = re.search(r'\$[\d,]{2,}k?|\b\d{2,3}k\s*usd\b', text, re.IGNORECASE)
+    if match:
+        return match.group(0).upper()
+    return None
 
 def fetch_jobs():
     jobs = []
@@ -80,55 +88,102 @@ def fetch_jobs():
 
     return jobs
 
-def analyze_skills(jobs):
+def get_previous_data(filepath):
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+                old_percentages = {}
+                for cat in old_data.get('categories', {}).values():
+                    for skill in cat:
+                        old_percentages[skill['skill']] = skill['percentage']
+                return old_percentages
+        except:
+            return {}
+    return {}
+
+def analyze_jobs(jobs, previous_percentages):
     total_jobs = len(jobs)
     if total_jobs == 0:
-        return []
+        return {}, []
 
-    skill_counts = {skill: 0 for skill in SKILLS.keys()}
-    
+    # Initialize skill counts
+    skill_counts = {}
+    for cat, skills_dict in CATEGORIES.items():
+        skill_counts[cat] = {skill: 0 for skill in skills_dict.keys()}
+
+    valid_jobs_list = []
+
     for job in jobs:
         desc = job['description'] + " " + job['title'].lower()
-        for skill, keywords in SKILLS.items():
-            for kw in keywords:
-                if kw in desc:
-                    skill_counts[skill] += 1
-                    break  # Count once per job
+        salary = extract_salary(desc)
+        found_skills = []
 
-    results = []
-    for skill, count in skill_counts.items():
-        percentage = round((count / total_jobs) * 100, 1)
-        results.append({
-            "skill": skill,
-            "count": count,
-            "percentage": percentage
-        })
-        
-    # Sort descending by count
-    results.sort(key=lambda x: x['count'], reverse=True)
-    return results
+        for cat, skills_dict in CATEGORIES.items():
+            for skill, keywords in skills_dict.items():
+                for kw in keywords:
+                    if kw in desc:
+                        skill_counts[cat][skill] += 1
+                        found_skills.append(skill)
+                        break  # Count once per job per skill
+
+        if found_skills:
+            valid_jobs_list.append({
+                "title": job['title'],
+                "company": job['company'],
+                "url": job['url'],
+                "salary": salary,
+                "skills": found_skills
+            })
+
+    # Prepare categories output
+    categories_output = {}
+    for cat, skills_dict in skill_counts.items():
+        cat_list = []
+        for skill, count in skills_dict.items():
+            percentage = round((count / total_jobs) * 100, 1)
+            old_pct = previous_percentages.get(skill, percentage)
+            trend = round(percentage - old_pct, 1)
+            
+            cat_list.append({
+                "skill": skill,
+                "count": count,
+                "percentage": percentage,
+                "trend": trend
+            })
+        # Sort descending by count
+        cat_list.sort(key=lambda x: x['count'], reverse=True)
+        categories_output[cat] = cat_list
+
+    # Return categories and top 30 valid jobs
+    return categories_output, valid_jobs_list[:30]
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'data')
     os.makedirs(data_dir, exist_ok=True)
     
+    output_file = os.path.join(data_dir, 'skills.json')
+    
+    # Get old percentages for trend calculation
+    previous_percentages = get_previous_data(output_file)
+    
     jobs = fetch_jobs()
     print(f"Total jobs collected: {len(jobs)}")
     
-    skill_stats = analyze_skills(jobs)
+    categories_stats, top_jobs = analyze_jobs(jobs, previous_percentages)
     
     # Save the output
-    output_file = os.path.join(data_dir, 'skills.json')
     with open(output_file, 'w', encoding='utf-8') as f:
         json_data = {
             "last_updated": datetime.now().strftime('%Y-%m-%d %H:%M'),
             "total_jobs_analyzed": len(jobs),
-            "skills": skill_stats
+            "categories": categories_stats,
+            "latest_jobs": top_jobs
         }
         json.dump(json_data, f, indent=4, ensure_ascii=False)
         
-    print(f"Saved skill analysis to {output_file}")
+    print(f"Saved skill analysis and {len(top_jobs)} live jobs to {output_file}")
 
 if __name__ == "__main__":
     main()
