@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-06-24 11:27",
+    "last_updated": "2026-06-24 11:35",
     "total_jobs_analyzed": 98,
     "categories": {
         "Programming Languages": [
@@ -167,315 +167,24 @@
     },
     "latest_jobs": [
         {
-            "title": "Mid/Senior AI Cinematic Video Editor",
-            "company": "EverAI",
-            "url": "https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887",
-            "salary": "$20",
-            "skills": [
-                "LLM",
-                "Hugging Face",
-                "AWS",
-                "Git"
-            ]
-        },
-        {
-            "title": "Senior Independent AI Engineer / Architect",
-            "company": "A.Team",
-            "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
-            "salary": "$200",
-            "skills": [
-                "LLM"
-            ]
-        },
-        {
-            "title": "Frontend Developer",
-            "company": "Quinncia Inc",
-            "url": "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991",
-            "salary": null,
-            "skills": [
-                "RAG",
-                "Docker",
-                "Git"
-            ]
-        },
-        {
-            "title": "Tech Lead Full-Stack Rails Engineer",
-            "company": "Mitre Media",
-            "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-            "salary": "$160,000",
-            "skills": [
-                "SQL",
-                "LLM",
-                "RAG",
-                "LangChain",
-                "Hugging Face",
-                "Docker",
-                "Kubernetes",
-                "Git"
-            ]
-        },
-        {
-            "title": "Head of Engineering",
-            "company": "Lemon.io",
-            "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2090983",
-            "salary": "$16",
-            "skills": [
-                "RAG"
-            ]
-        },
-        {
-            "title": "Quality Assurance Rater - German (Germany)",
-            "company": "TELUS Digital",
-            "url": "https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988",
-            "salary": null,
-            "skills": [
-                "Git"
-            ]
-        },
-        {
-            "title": "Senior Data Scientist",
-            "company": "Lemon.io",
-            "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2090982",
-            "salary": "$11",
-            "skills": [
-                "Python",
-                "Java",
-                "C++",
-                "LLM",
-                "Pandas",
-                "NumPy",
-                "AWS",
-                "GCP",
-                "Azure"
-            ]
-        },
-        {
-            "title": "iOS Developer",
-            "company": "nooro",
-            "url": "https://remotive.com/remote-jobs/software-development/ios-developer-1956455",
-            "salary": null,
-            "skills": [
-                "RAG",
-                "Git"
-            ]
-        },
-        {
-            "title": "Inside Sales Contractor",
-            "company": "Credit Wellness, LLC",
-            "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
-            "salary": "$1,000",
-            "skills": [
-                "RAG",
-                "Git"
-            ]
-        },
-        {
-            "title": "Online Data Analyst Canada (French Language)",
-            "company": "TELUS Digital",
-            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-french-language-2090945",
-            "salary": null,
-            "skills": [
-                "Git"
-            ]
-        },
-        {
-            "title": "Online Data Analyst United States Spanish speakers",
-            "company": "TELUS Digital",
-            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-united-states-spanish-speakers-2090946",
-            "salary": null,
-            "skills": [
-                "Git"
-            ]
-        },
-        {
-            "title": "Online Data Analyst Canada",
-            "company": "TELUS Digital",
-            "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-2090944",
-            "salary": null,
-            "skills": [
-                "Git"
-            ]
-        },
-        {
-            "title": "Head of Sales",
-            "company": "The Land Geek",
-            "url": "https://remotive.com/remote-jobs/sales/head-of-sales-2090943",
-            "salary": "$9,000",
-            "skills": [
-                "R",
-                "RAG"
-            ]
-        },
-        {
-            "title": "Copywriter",
-            "company": "Coalition Technologies ",
-            "url": "https://remotive.com/remote-jobs/writing/copywriter-1749306",
-            "salary": "$30",
-            "skills": [
-                "RAG",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Software Engineer, Product (Belo Horizonte)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2090910",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Software Engineer, Product (Florianópolis)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2090911",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Software Engineer, Product (Porto Alegre)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-porto-alegre-2090909",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Software Engineer, Product (São Paulo)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2090912",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Customer Operations & Writing Specialist",
-            "company": "Clerky, Inc.",
-            "url": "https://remotive.com/remote-jobs/customer-service/customer-operations-writing-specialist-2090942",
-            "salary": null,
-            "skills": [
-                "RAG"
-            ]
-        },
-        {
-            "title": "Staff Software Engineer, Product (Campinas)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2090913",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Product Engineer (Florianópolis)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2090899",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Product Engineer (Belo Horizonte)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2090900",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Product Engineer (Porto Alegre)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-porto-alegre-2090901",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Data Labeling Specialists",
-            "company": "Workada",
-            "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903",
-            "salary": "$18",
-            "skills": [
-                "Git"
-            ]
-        },
-        {
-            "title": "Staff Product Engineer (Campinas)",
-            "company": "LawnStarter",
-            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2090902",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Airflow",
-                "Git"
-            ]
-        },
-        {
-            "title": "Analyst, Health Plan Risk & Quality Reporting (Remote in FL)",
-            "company": "Molina Healthcare",
-            "url": "https://jobicy.com/jobs/147556-analyst-health-plan-risk-quality-reporting-remote-in-fl",
-            "salary": null,
-            "skills": [
-                "SQL",
-                "AWS",
-                "Azure",
-                "Power BI"
-            ]
-        },
-        {
-            "title": "Director I, Data Science, People, Purpose & Brand",
-            "company": "Liberty Mutual",
-            "url": "https://jobicy.com/jobs/147548-director-i-data-science-people-purpose-brand",
-            "salary": null,
+            "title": "Senior Machine Learning Scientist (USA Remote)",
+            "company": "Turnitin, LLC",
+            "url": "https://jobicy.com/jobs/144814-senior-machine-learning-scientist-usa-remote-2",
+            "salary": "$112,125",
             "skills": [
                 "Python",
                 "SQL",
+                "PyTorch",
                 "LLM",
                 "RAG",
+                "Hugging Face",
+                "Scikit-Learn",
+                "AWS",
+                "Docker",
                 "Git"
-            ]
-        },
-        {
-            "title": "Ontology Architect",
-            "company": "Tiger Analytics",
-            "url": "https://jobicy.com/jobs/147512-ontology-architect",
-            "salary": null,
-            "skills": [
-                "LLM",
-                "RAG"
-            ]
+            ],
+            "is_unicorn": true,
+            "_score": 150
         },
         {
             "title": "Applied Data Scientist / Machine Learning Engineer (Decision Intelligence)",
@@ -495,21 +204,443 @@
                 "Azure",
                 "Airflow",
                 "Snowflake"
-            ]
+            ],
+            "is_unicorn": false,
+            "_score": 120
+        },
+        {
+            "title": "Senior AI Data Engineer",
+            "company": "Scorpion",
+            "url": "https://jobicy.com/jobs/145319-senior-ai-data-engineer",
+            "salary": "$155,000",
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Azure",
+                "Airflow",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 120
+        },
+        {
+            "title": "Senior Data Scientist",
+            "company": "Lemon.io",
+            "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2090982",
+            "salary": "$11",
+            "skills": [
+                "Python",
+                "Java",
+                "C++",
+                "LLM",
+                "Pandas",
+                "NumPy",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Sr. Machine Learning Solutions Architect",
+            "company": "phData",
+            "url": "https://jobicy.com/jobs/146291-sr-machine-learning-solutions-architect",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "TensorFlow",
+                "RAG",
+                "Scikit-Learn",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Tech Lead Full-Stack Rails Engineer",
+            "company": "Mitre Media",
+            "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+            "salary": "$160,000",
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "Hugging Face",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 100
         },
         {
             "title": "Senior Data Engineer",
-            "company": "Experian",
-            "url": "https://jobicy.com/jobs/144463-senior-data-engineer-10",
+            "company": "phData",
+            "url": "https://jobicy.com/jobs/146263-senior-data-engineer-11",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Airflow",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Senior Machine Learning Engineer, AI Platform",
+            "company": "Mozilla",
+            "url": "https://jobicy.com/jobs/146091-senior-machine-learning-engineer-ai-platform",
+            "salary": "$128,000",
+            "skills": [
+                "Python",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Mid/Senior AI Cinematic Video Editor",
+            "company": "EverAI",
+            "url": "https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887",
+            "salary": "$20",
+            "skills": [
+                "LLM",
+                "Hugging Face",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Software Engineer, Product (Belo Horizonte)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2090910",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Software Engineer, Product (Florianópolis)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2090911",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Software Engineer, Product (Porto Alegre)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-porto-alegre-2090909",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Software Engineer, Product (São Paulo)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2090912",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Software Engineer, Product (Campinas)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2090913",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Product Engineer (Florianópolis)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2090899",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Product Engineer (Belo Horizonte)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2090900",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Product Engineer (Porto Alegre)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-porto-alegre-2090901",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Staff Product Engineer (Campinas)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2090902",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Business Intelligence Lead, Performance Marketing",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146932-business-intelligence-lead-performance-marketing",
+            "salary": "$120,000",
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Lead Analytics Manager",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146931-lead-analytics-manager",
+            "salary": "$120,000",
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Lead BI Developer",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146930-lead-bi-developer",
+            "salary": "$120,000",
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Lead BI Manager",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146929-lead-bi-manager",
+            "salary": "$120,000",
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Lead Data Analyst, Marketing",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146928-lead-data-analyst-marketing-2",
+            "salary": "$120,000",
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Assistant Director, Data Engineering",
+            "company": "University of Colorado",
+            "url": "https://jobicy.com/jobs/146609-assistant-director-data-engineering",
+            "salary": "$148,000",
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "Snowflake",
+                "Tableau"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "AI/ML Engineering",
+            "company": "Cint",
+            "url": "https://jobicy.com/jobs/144709-ai-ml-engineering",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Machine Learning Engineering Manager – Ads Engagement Modeling",
+            "company": "Reddit",
+            "url": "https://jobicy.com/jobs/146556-machine-learning-engineering-manager-ads-engagement-modeling",
+            "salary": "$230,000",
+            "skills": [
+                "PyTorch",
+                "TensorFlow",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "IT Software Asset Management Analyst",
+            "company": "DoorDash",
+            "url": "https://jobicy.com/jobs/146432-it-software-asset-management-analyst",
+            "salary": "$95,200",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Senior Data Scientist – Real Estate",
+            "company": "Truelogic",
+            "url": "https://jobicy.com/jobs/146302-senior-data-scientist-real-estate",
             "salary": null,
             "skills": [
                 "Python",
                 "SQL",
                 "LLM",
-                "AWS",
+                "RAG",
+                "Scikit-Learn",
+                "Pandas",
                 "Spark",
                 "Git"
-            ]
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "AI Expert",
+            "company": "ECS",
+            "url": "https://jobicy.com/jobs/145639-ai-expert",
+            "salary": null,
+            "skills": [
+                "Python",
+                "Java",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Director, Marketing Analytics",
+            "company": "Chime",
+            "url": "https://jobicy.com/jobs/145557-director-marketing-analytics",
+            "salary": "$217,000",
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 80
         }
     ]
 }

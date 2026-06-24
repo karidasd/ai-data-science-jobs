@@ -155,6 +155,30 @@ def analyze_jobs(jobs, previous_percentages):
         cat_list.sort(key=lambda x: x['count'], reverse=True)
         categories_output[cat] = cat_list
 
+    unicorn_job = None
+    max_score = -1
+
+    for job in valid_jobs_list:
+        score = len(job['skills']) * 10
+        if job['salary']:
+            score += 20
+            # give bonus for high salaries
+            if any(high_val in job['salary'] for high_val in ['10', '12', '15', '20', '30']):
+                score += 30
+        
+        job['is_unicorn'] = False
+        job['_score'] = score
+        
+        if score > max_score:
+            max_score = score
+            unicorn_job = job
+
+    if unicorn_job:
+        unicorn_job['is_unicorn'] = True
+        
+    # Sort valid_jobs_list by score descending
+    valid_jobs_list.sort(key=lambda x: x['_score'], reverse=True)
+
     # Return categories and top 30 valid jobs
     return categories_output, valid_jobs_list[:30]
 

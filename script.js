@@ -76,9 +76,10 @@ async function fetchData() {
             data.latest_jobs.forEach(job => {
                 const tagsHtml = job.skills.map(skill => `<span class="tag">${skill}</span>`).join('');
                 const salaryBadge = job.salary ? `<span class="salary-badge">💰 Est: ${job.salary}</span>` : '';
+                const unicornClass = job.is_unicorn ? 'unicorn' : '';
                 
                 const jobHtml = `
-                    <div class="job-card">
+                    <div class="job-card ${unicornClass}">
                         <div class="job-details">
                             <h3 class="job-title">${job.title}</h3>
                             <div class="job-company">
@@ -101,12 +102,68 @@ async function fetchData() {
         // Trigger Progress Bar Animations
         setTimeout(() => {
             document.querySelectorAll('.progress-fill').forEach(bar => {
-                bar.style.width = bar.getAttribute('data-target');
+                bar.style.width = bar.getAttribute('data-target') || bar.style.width;
             });
         }, 100);
+        
+        // Setup Resume Matcher
+        setupResumeMatcher(data.categories);
         
     } catch (error) {
         console.error('Error:', error);
         document.getElementById('categories-grid').innerHTML = '<p style="color:red;">Failed to load data. Please ensure the backend script has run.</p>';
     }
+}
+
+function setupResumeMatcher(categories) {
+    const btn = document.getElementById('analyze-cv-btn');
+    const input = document.getElementById('resume-input');
+    const results = document.getElementById('resume-results');
+    
+    // Extract top 10 skills from categories
+    let allSkills = [];
+    Object.values(categories).forEach(cat => {
+        cat.forEach(skill => {
+            if (skill.count > 0) allSkills.push(skill);
+        });
+    });
+    allSkills.sort((a, b) => b.count - a.count);
+    const topSkills = allSkills.slice(0, 10).map(s => s.skill.toLowerCase());
+    
+    btn.addEventListener('click', () => {
+        const text = input.value.toLowerCase();
+        if (!text.trim()) return;
+        
+        let matchCount = 0;
+        let missing = [];
+        
+        topSkills.forEach(skill => {
+            if (text.includes(skill)) {
+                matchCount++;
+            } else {
+                missing.push(skill);
+            }
+        });
+        
+        const score = Math.round((matchCount / topSkills.length) * 100);
+        
+        document.getElementById('cv-score').textContent = score + '%';
+        
+        // Use timeout to allow CSS transition if element was just unhidden
+        results.style.display = 'block';
+        setTimeout(() => {
+            document.getElementById('cv-progress').style.width = score + '%';
+        }, 50);
+        
+        let feedback = '';
+        if (score === 100) {
+            feedback = '🎯 Perfect match! You have all the top 10 most demanded skills.';
+        } else if (score >= 60) {
+            feedback = `👍 Great profile! Consider adding these to boost your chances: <strong style="color:var(--text-primary)">${missing.slice(0,3).join(', ')}</strong>.`;
+        } else {
+            feedback = `📈 Keep learning! The market is currently looking for: <strong style="color:var(--text-primary)">${missing.slice(0,5).join(', ')}</strong>.`;
+        }
+        
+        document.getElementById('cv-feedback').innerHTML = feedback;
+    });
 }
