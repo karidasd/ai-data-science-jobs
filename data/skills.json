@@ -1,0 +1,161 @@
+{
+    "last_updated": "2026-06-24 11:16",
+    "total_jobs_analyzed": 98,
+    "skills": [
+        {
+            "skill": "RAG",
+            "count": 60,
+            "percentage": 61.2
+        },
+        {
+            "skill": "Git",
+            "count": 46,
+            "percentage": 46.9
+        },
+        {
+            "skill": "SQL",
+            "count": 38,
+            "percentage": 38.8
+        },
+        {
+            "skill": "Python",
+            "count": 37,
+            "percentage": 37.8
+        },
+        {
+            "skill": "AWS",
+            "count": 35,
+            "percentage": 35.7
+        },
+        {
+            "skill": "Airflow",
+            "count": 20,
+            "percentage": 20.4
+        },
+        {
+            "skill": "LLM",
+            "count": 18,
+            "percentage": 18.4
+        },
+        {
+            "skill": "Snowflake",
+            "count": 14,
+            "percentage": 14.3
+        },
+        {
+            "skill": "Spark",
+            "count": 13,
+            "percentage": 13.3
+        },
+        {
+            "skill": "Databricks",
+            "count": 12,
+            "percentage": 12.2
+        },
+        {
+            "skill": "Tableau",
+            "count": 11,
+            "percentage": 11.2
+        },
+        {
+            "skill": "Azure",
+            "count": 9,
+            "percentage": 9.2
+        },
+        {
+            "skill": "Power BI",
+            "count": 9,
+            "percentage": 9.2
+        },
+        {
+            "skill": "R",
+            "count": 7,
+            "percentage": 7.1
+        },
+        {
+            "skill": "Java",
+            "count": 7,
+            "percentage": 7.1
+        },
+        {
+            "skill": "GCP",
+            "count": 7,
+            "percentage": 7.1
+        },
+        {
+            "skill": "PyTorch",
+            "count": 6,
+            "percentage": 6.1
+        },
+        {
+            "skill": "Scikit-Learn",
+            "count": 6,
+            "percentage": 6.1
+        },
+        {
+            "skill": "Docker",
+            "count": 5,
+            "percentage": 5.1
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 4,
+            "percentage": 4.1
+        },
+        {
+            "skill": "Pandas",
+            "count": 3,
+            "percentage": 3.1
+        },
+        {
+            "skill": "Kubernetes",
+            "count": 3,
+            "percentage": 3.1
+        },
+        {
+            "skill": "Hugging Face",
+            "count": 3,
+            "percentage": 3.1
+        },
+        {
+            "skill": "Linux",
+            "count": 3,
+            "percentage": 3.1
+        },
+        {
+            "skill": "NumPy",
+            "count": 2,
+            "percentage": 2.0
+        },
+        {
+            "skill": "Hadoop",
+            "count": 2,
+            "percentage": 2.0
+        },
+        {
+            "skill": "Kafka",
+            "count": 2,
+            "percentage": 2.0
+        },
+        {
+            "skill": "LangChain",
+            "count": 2,
+            "percentage": 2.0
+        },
+        {
+            "skill": "C++",
+            "count": 1,
+            "percentage": 1.0
+        },
+        {
+            "skill": "Keras",
+            "count": 1,
+            "percentage": 1.0
+        },
+        {
+            "skill": "OpenAI",
+            "count": 0,
+            "percentage": 0.0
+        }
+    ]
+}
