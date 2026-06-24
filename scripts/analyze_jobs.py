@@ -53,38 +53,58 @@ def extract_salary(text):
 
 def fetch_jobs():
     jobs = []
-    
-    # 1. Remotive (Data)
-    try:
-        req = urllib.request.Request('https://remotive.com/api/remote-jobs?category=data', headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read().decode())
-            for j in data.get('jobs', []):
-                jobs.append({
-                    'title': j.get('title', ''),
-                    'company': j.get('company_name', ''),
-                    'url': j.get('url', ''),
-                    'description': clean_html(j.get('description', ''))
-                })
-        print(f"Fetched {len(data.get('jobs', []))} from Remotive.")
-    except Exception as e:
-        print(f"Error fetching from Remotive: {e}")
+    seen_urls = set()
 
-    # 2. Jobicy (Data Science)
+    def add_job(title, company, url, desc):
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            jobs.append({
+                'title': title,
+                'company': company,
+                'url': url,
+                'description': clean_html(desc)
+            })
+
+    # 1. Remotive (Data & Software Dev)
+    for cat in ['data', 'software-dev']:
+        try:
+            req = urllib.request.Request(f'https://remotive.com/api/remote-jobs?category={cat}', headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                data = json.loads(response.read().decode())
+                count = 0
+                for j in data.get('jobs', []):
+                    add_job(j.get('title', ''), j.get('company_name', ''), j.get('url', ''), j.get('description', ''))
+                    count += 1
+            print(f"Fetched {count} from Remotive ({cat}).")
+        except Exception as e:
+            print(f"Error fetching from Remotive {cat}: {e}")
+
+    # 2. Jobicy (Data Science & Engineering)
+    for ind in ['data-science', 'engineering']:
+        try:
+            req = urllib.request.Request(f'https://jobicy.com/api/v2/remote-jobs?industry={ind}', headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                data = json.loads(response.read().decode())
+                count = 0
+                for j in data.get('jobs', []):
+                    add_job(j.get('jobTitle', ''), j.get('companyName', ''), j.get('url', ''), j.get('jobDescription', ''))
+                    count += 1
+            print(f"Fetched {count} from Jobicy ({ind}).")
+        except Exception as e:
+            print(f"Error fetching from Jobicy {ind}: {e}")
+            
+    # 3. Arbeitnow
     try:
-        req = urllib.request.Request('https://jobicy.com/api/v2/remote-jobs?industry=data-science', headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request('https://www.arbeitnow.com/api/job-board-api', headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
-            for j in data.get('jobs', []):
-                jobs.append({
-                    'title': j.get('jobTitle', ''),
-                    'company': j.get('companyName', ''),
-                    'url': j.get('url', ''),
-                    'description': clean_html(j.get('jobDescription', ''))
-                })
-        print(f"Fetched {len(data.get('jobs', []))} from Jobicy.")
+            count = 0
+            for j in data.get('data', []):
+                add_job(j.get('title', ''), j.get('company_name', ''), j.get('url', ''), j.get('description', ''))
+                count += 1
+        print(f"Fetched {count} from Arbeitnow.")
     except Exception as e:
-        print(f"Error fetching from Jobicy: {e}")
+        print(f"Error fetching from Arbeitnow: {e}")
 
     return jobs
 
@@ -179,8 +199,8 @@ def analyze_jobs(jobs, previous_percentages):
     # Sort valid_jobs_list by score descending
     valid_jobs_list.sort(key=lambda x: x['_score'], reverse=True)
 
-    # Return categories and top 30 valid jobs
-    return categories_output, valid_jobs_list[:30]
+    # Return categories and top 100 valid jobs
+    return categories_output, valid_jobs_list[:100]
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
