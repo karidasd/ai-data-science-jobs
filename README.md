@@ -8,7 +8,6 @@
 🔗 **[Δείτε το Live Dashboard](https://karidasd.github.io/ai-data-science-jobs/)**
 
 ## Τι νέο φέρνει η V3.0 (The Ultimate Career Tool)
-- **AI Resume Matcher**: Επικολλήστε το βιογραφικό σας (CV) στο νέο πλαίσιο! Η JavaScript θα το σαρώσει τοπικά και θα σας δώσει ένα **Market Readiness Score**, συγκρίνοντάς το με τα Top 10 πιο περιζήτητα skills της ημέρας. Σας λέει ακριβώς τι σας λείπει!
 - **The Unicorn Job 👑**: Ο αλγόριθμος Python αξιολογεί τις αγγελίες (βάσει απαιτούμενων AI skills και ύψους μισθού) και επιλέγει την **Κορυφαία Αγγελία της Ημέρας**. Θα τη δείτε να λάμπει με χρυσό περίγραμμα στο Live Job Board!
 - **Tech Stack View**: Διαχωρισμός των δεξιοτήτων σε 3 κάρτες (Programming Languages, AI & ML, Cloud & MLOps).
 - **Market Momentum**: Υπολογισμός τάσεων (Trend Badges) - βλέπετε τι ανεβαίνει 📈 και τι πέφτει 📉 καθημερινά!
