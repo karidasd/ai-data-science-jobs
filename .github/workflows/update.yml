@@ -2,7 +2,7 @@ name: Daily Job Market Update
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs at 08:00 UTC daily
+    - cron: '0 4 * * *' # Runs at 04:00 UTC daily (07:00 AM Greek Time)
   workflow_dispatch:
 
 jobs:
