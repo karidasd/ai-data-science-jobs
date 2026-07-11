@@ -1,57 +1,57 @@
 {
-    "last_updated": "2026-07-10 07:38",
-    "total_jobs_analyzed": 302,
+    "last_updated": "2026-07-11 06:16",
+    "total_jobs_analyzed": 306,
     "categories": {
         "Programming Languages": [
             {
                 "skill": "Python",
-                "count": 88,
-                "percentage": 29.1,
-                "trend": 0.7
+                "count": 82,
+                "percentage": 26.8,
+                "trend": -2.3
             },
             {
                 "skill": "SQL",
-                "count": 78,
+                "count": 79,
                 "percentage": 25.8,
-                "trend": -2.0
+                "trend": 0.0
             },
             {
                 "skill": "Java",
-                "count": 23,
-                "percentage": 7.6,
-                "trend": -0.9
+                "count": 26,
+                "percentage": 8.5,
+                "trend": 0.9
             },
             {
                 "skill": "C++",
-                "count": 11,
-                "percentage": 3.6,
-                "trend": 0.3
+                "count": 15,
+                "percentage": 4.9,
+                "trend": 1.3
             },
             {
                 "skill": "R",
                 "count": 8,
                 "percentage": 2.6,
-                "trend": -1.3
+                "trend": 0.0
             }
         ],
         "AI & Machine Learning": [
             {
                 "skill": "RAG",
-                "count": 176,
-                "percentage": 58.3,
-                "trend": -2.2
+                "count": 203,
+                "percentage": 66.3,
+                "trend": 8.0
             },
             {
                 "skill": "LLM",
-                "count": 47,
-                "percentage": 15.6,
-                "trend": 0.6
+                "count": 46,
+                "percentage": 15.0,
+                "trend": -0.6
             },
             {
                 "skill": "PyTorch",
-                "count": 17,
-                "percentage": 5.6,
-                "trend": 1.7
+                "count": 14,
+                "percentage": 4.6,
+                "trend": -1.0
             },
             {
                 "skill": "TensorFlow",
@@ -63,7 +63,7 @@
                 "skill": "OpenAI API",
                 "count": 7,
                 "percentage": 2.3,
-                "trend": -0.6
+                "trend": 0.0
             },
             {
                 "skill": "Scikit-Learn",
@@ -75,7 +75,7 @@
                 "skill": "LangChain",
                 "count": 6,
                 "percentage": 2.0,
-                "trend": -0.3
+                "trend": 0.0
             },
             {
                 "skill": "Hugging Face",
@@ -99,69 +99,69 @@
         "Cloud & MLOps": [
             {
                 "skill": "Git",
-                "count": 129,
-                "percentage": 42.7,
-                "trend": -4.4
+                "count": 135,
+                "percentage": 44.1,
+                "trend": 1.4
             },
             {
                 "skill": "AWS",
-                "count": 82,
-                "percentage": 27.2,
-                "trend": -1.2
+                "count": 81,
+                "percentage": 26.5,
+                "trend": -0.7
             },
             {
                 "skill": "Azure",
                 "count": 39,
-                "percentage": 12.9,
-                "trend": 1.5
+                "percentage": 12.7,
+                "trend": -0.2
             },
             {
                 "skill": "Kubernetes",
-                "count": 29,
-                "percentage": 9.6,
-                "trend": 0.8
+                "count": 28,
+                "percentage": 9.2,
+                "trend": -0.4
             },
             {
                 "skill": "Spark",
-                "count": 27,
-                "percentage": 8.9,
-                "trend": 1.1
+                "count": 26,
+                "percentage": 8.5,
+                "trend": -0.4
             },
             {
                 "skill": "GCP",
-                "count": 26,
-                "percentage": 8.6,
-                "trend": 0.1
+                "count": 24,
+                "percentage": 7.8,
+                "trend": -0.8
             },
             {
                 "skill": "Docker",
-                "count": 20,
-                "percentage": 6.6,
-                "trend": 0.4
-            },
-            {
-                "skill": "Snowflake",
-                "count": 16,
-                "percentage": 5.3,
-                "trend": 0.4
+                "count": 22,
+                "percentage": 7.2,
+                "trend": 0.6
             },
             {
                 "skill": "Airflow",
                 "count": 15,
-                "percentage": 5.0,
-                "trend": -0.2
+                "percentage": 4.9,
+                "trend": -0.1
             },
             {
-                "skill": "Power BI",
-                "count": 14,
-                "percentage": 4.6,
-                "trend": 0.0
+                "skill": "Snowflake",
+                "count": 15,
+                "percentage": 4.9,
+                "trend": -0.4
             },
             {
                 "skill": "Tableau",
                 "count": 13,
-                "percentage": 4.3,
-                "trend": -0.6
+                "percentage": 4.2,
+                "trend": -0.1
+            },
+            {
+                "skill": "Power BI",
+                "count": 13,
+                "percentage": 4.2,
+                "trend": -0.4
             }
         ]
     },
@@ -409,22 +409,6 @@
                 "LLM",
                 "RAG",
                 "AWS"
-            ],
-            "is_unicorn": false,
-            "_score": 110
-        },
-        {
-            "title": "Sr Systems Engineer - Federal/DOD (Remote: DC/MD/VA)",
-            "company": "Veeam Software",
-            "url": "https://jobicy.com/jobs/142566-sr-systems-engineer-federal-dod-remote-dc-md-va",
-            "salary": "$202,000",
-            "skills": [
-                "SQL",
-                "RAG",
-                "AWS",
-                "GCP",
-                "Azure",
-                "Git"
             ],
             "is_unicorn": false,
             "_score": 110
@@ -809,6 +793,23 @@
             "_score": 90
         },
         {
+            "title": "Senior Software Engineer, Backend (AI Agent Integrations)",
+            "company": "Cresta",
+            "url": "https://jobicy.com/jobs/149101-senior-software-engineer-backend-ai-agent-integrations",
+            "salary": "$270",
+            "skills": [
+                "LLM",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
             "title": "AI/ML Engineer (Synthetic Data)",
             "company": "Cint",
             "url": "https://jobicy.com/jobs/145289-ai-ml-engineer-synthetic-data",
@@ -874,6 +875,34 @@
                 "RAG",
                 "Scikit-Learn",
                 "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Product Engineer (w/m/d)",
+            "company": "Skalar",
+            "url": "https://www.arbeitnow.com/jobs/companies/skalar/product-engineer-munich-341583",
+            "salary": "$100",
+            "skills": [
+                "SQL",
+                "RAG",
+                "Docker",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Founding Engineer (w/m/d)",
+            "company": "Skalar",
+            "url": "https://www.arbeitnow.com/jobs/companies/skalar/founding-engineer-munich-20399",
+            "salary": "$100",
+            "skills": [
+                "SQL",
+                "RAG",
+                "Docker",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 90
@@ -1022,6 +1051,51 @@
             "_score": 80
         },
         {
+            "title": "Director of Engineering, Cloud & Reliability",
+            "company": "Boulevard",
+            "url": "https://jobicy.com/jobs/149111-director-of-engineering-cloud-reliability",
+            "salary": "$209,500",
+            "skills": [
+                "AWS",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Software Engineer, Unsecured Installments",
+            "company": "Upstart",
+            "url": "https://jobicy.com/jobs/149109-software-engineer-unsecured-installments",
+            "salary": "$142,000",
+            "skills": [
+                "Python",
+                "Java",
+                "LLM",
+                "RAG",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Senior Software Engineer, Unsecured Installments",
+            "company": "Upstart",
+            "url": "https://jobicy.com/jobs/149108-senior-software-engineer-unsecured-installments",
+            "salary": "$166,900",
+            "skills": [
+                "Python",
+                "Java",
+                "LLM",
+                "RAG",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
             "title": "Staff Machine Learning Engineer",
             "company": "Pinterest",
             "url": "https://jobicy.com/jobs/145331-staff-machine-learning-engineer-2",
@@ -1119,24 +1193,6 @@
                 "SQL",
                 "RAG",
                 "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Python Entwickler*",
-            "company": "Haeger Consulting GmbH",
-            "url": "https://www.arbeitnow.com/jobs/companies/haeger-consulting-gmbh/senior-python-entwickler-bonn-13364",
-            "salary": null,
-            "skills": [
-                "Python",
-                "SQL",
-                "RAG",
-                "AWS",
-                "Kubernetes",
-                "GCP",
-                "Azure",
-                "Git"
             ],
             "is_unicorn": false,
             "_score": 80
@@ -1377,18 +1433,6 @@
                 "GCP",
                 "Azure",
                 "Spark"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Software Engineer II, Full-Stack (Marketplace Performance)",
-            "company": "Affirm",
-            "url": "https://jobicy.com/jobs/142527-software-engineer-ii-full-stack-marketplace-performance",
-            "salary": "$125,000",
-            "skills": [
-                "Python",
-                "RAG"
             ],
             "is_unicorn": false,
             "_score": 70
@@ -1663,47 +1707,6 @@
                 "LLM",
                 "Spark",
                 "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Senior Model Based System Engineer",
-            "company": "ManTech",
-            "url": "https://jobicy.com/jobs/142065-senior-model-based-system-engineer",
-            "salary": "$89,100",
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Senior Software Engineer, JAX",
-            "company": "NVIDIA",
-            "url": "https://jobicy.com/jobs/142111-senior-software-engineer-jax",
-            "salary": null,
-            "skills": [
-                "Python",
-                "C++",
-                "PyTorch",
-                "TensorFlow",
-                "Scikit-Learn",
-                "NumPy"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Software Engineer (Multiple Levels)",
-            "company": "UpGuard",
-            "url": "https://jobicy.com/jobs/142184-software-engineer-multiple-levels",
-            "salary": "$75",
-            "skills": [
-                "LLM",
-                "RAG",
-                "Kubernetes",
-                "GCP"
             ],
             "is_unicorn": false,
             "_score": 60
