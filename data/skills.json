@@ -1,31 +1,31 @@
 {
-    "last_updated": "2026-07-18 06:07",
-    "total_jobs_analyzed": 301,
+    "last_updated": "2026-07-19 06:31",
+    "total_jobs_analyzed": 300,
     "categories": {
         "Programming Languages": [
             {
                 "skill": "SQL",
-                "count": 75,
-                "percentage": 24.9,
-                "trend": 0.3
+                "count": 72,
+                "percentage": 24.0,
+                "trend": -0.9
             },
             {
                 "skill": "Python",
-                "count": 74,
-                "percentage": 24.6,
-                "trend": -2.0
+                "count": 70,
+                "percentage": 23.3,
+                "trend": -1.3
             },
             {
                 "skill": "Java",
-                "count": 20,
-                "percentage": 6.6,
-                "trend": 0.3
+                "count": 21,
+                "percentage": 7.0,
+                "trend": 0.4
             },
             {
                 "skill": "C++",
-                "count": 10,
-                "percentage": 3.3,
-                "trend": 0.3
+                "count": 14,
+                "percentage": 4.7,
+                "trend": 1.4
             },
             {
                 "skill": "R",
@@ -37,21 +37,15 @@
         "AI & Machine Learning": [
             {
                 "skill": "RAG",
-                "count": 201,
-                "percentage": 66.8,
-                "trend": 1.7
+                "count": 205,
+                "percentage": 68.3,
+                "trend": 1.5
             },
             {
                 "skill": "LLM",
-                "count": 50,
-                "percentage": 16.6,
-                "trend": -1.0
-            },
-            {
-                "skill": "OpenAI API",
-                "count": 9,
-                "percentage": 3.0,
-                "trend": -0.3
+                "count": 47,
+                "percentage": 15.7,
+                "trend": -0.9
             },
             {
                 "skill": "PyTorch",
@@ -66,16 +60,22 @@
                 "trend": 0.0
             },
             {
-                "skill": "LangChain",
+                "skill": "OpenAI API",
                 "count": 7,
                 "percentage": 2.3,
-                "trend": -0.4
+                "trend": -0.7
+            },
+            {
+                "skill": "LangChain",
+                "count": 6,
+                "percentage": 2.0,
+                "trend": -0.3
             },
             {
                 "skill": "Scikit-Learn",
                 "count": 5,
                 "percentage": 1.7,
-                "trend": 0.4
+                "trend": 0.0
             },
             {
                 "skill": "Hugging Face",
@@ -87,63 +87,63 @@
                 "skill": "Pandas",
                 "count": 2,
                 "percentage": 0.7,
-                "trend": -0.3
+                "trend": 0.0
             },
             {
                 "skill": "NumPy",
                 "count": 1,
                 "percentage": 0.3,
-                "trend": -0.4
+                "trend": 0.0
             }
         ],
         "Cloud & MLOps": [
             {
                 "skill": "Git",
-                "count": 135,
-                "percentage": 44.9,
-                "trend": -5.9
+                "count": 144,
+                "percentage": 48.0,
+                "trend": 3.1
             },
             {
                 "skill": "AWS",
-                "count": 85,
-                "percentage": 28.2,
-                "trend": 1.6
+                "count": 88,
+                "percentage": 29.3,
+                "trend": 1.1
             },
             {
                 "skill": "Azure",
-                "count": 34,
-                "percentage": 11.3,
-                "trend": 1.0
+                "count": 36,
+                "percentage": 12.0,
+                "trend": 0.7
             },
             {
                 "skill": "Spark",
-                "count": 26,
-                "percentage": 8.6,
-                "trend": 1.6
-            },
-            {
-                "skill": "Airflow",
-                "count": 25,
-                "percentage": 8.3,
-                "trend": 0.3
+                "count": 27,
+                "percentage": 9.0,
+                "trend": 0.4
             },
             {
                 "skill": "Kubernetes",
-                "count": 23,
-                "percentage": 7.6,
-                "trend": -1.0
+                "count": 26,
+                "percentage": 8.7,
+                "trend": 1.1
+            },
+            {
+                "skill": "Airflow",
+                "count": 24,
+                "percentage": 8.0,
+                "trend": -0.3
             },
             {
                 "skill": "Docker",
-                "count": 22,
-                "percentage": 7.3,
-                "trend": 1.0
+                "count": 21,
+                "percentage": 7.0,
+                "trend": -0.3
             },
             {
                 "skill": "GCP",
-                "count": 20,
-                "percentage": 6.6,
-                "trend": 1.0
+                "count": 21,
+                "percentage": 7.0,
+                "trend": 0.4
             },
             {
                 "skill": "Snowflake",
@@ -153,9 +153,9 @@
             },
             {
                 "skill": "Tableau",
-                "count": 13,
-                "percentage": 4.3,
-                "trend": 1.0
+                "count": 12,
+                "percentage": 4.0,
+                "trend": -0.3
             },
             {
                 "skill": "Power BI",
@@ -789,6 +789,25 @@
             "_score": 90
         },
         {
+            "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
+            "company": "Dataiku",
+            "url": "https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl",
+            "salary": null,
+            "skills": [
+                "Python",
+                "Java",
+                "C++",
+                "LLM",
+                "AWS",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Spark"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
             "title": "Sr. Solutions Architect - Agencies",
             "company": "Databricks",
             "url": "https://jobicy.com/jobs/146200-sr-solutions-architect-agencies",
@@ -893,6 +912,19 @@
                 "SQL",
                 "RAG",
                 "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+            "company": "Reddit",
+            "url": "https://jobicy.com/jobs/146556-machine-learning-engineering-manager-ads-engagement-modeling",
+            "salary": "$230,000",
+            "skills": [
+                "PyTorch",
+                "TensorFlow",
+                "RAG"
             ],
             "is_unicorn": false,
             "_score": 80
@@ -1120,19 +1152,19 @@
             "_score": 80
         },
         {
-            "title": "Computer Vision Engineer (m/w/d)",
-            "company": "Agentur Philipp GmbH",
-            "url": "https://www.arbeitnow.com/jobs/companies/agentur-philipp-gmbh/computer-vision-engineer-dingolfing-418034",
+            "title": "Senior Full-stack Python Engineer (m/f/d) - Network Planning",
+            "company": "Flix",
+            "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-full-stack-python-engineer-network-planning-berlin-414270",
             "salary": null,
             "skills": [
                 "Python",
-                "PyTorch",
-                "TensorFlow",
-                "LLM",
+                "SQL",
                 "RAG",
                 "AWS",
                 "Docker",
-                "Azure"
+                "Kubernetes",
+                "Azure",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 80
@@ -1238,18 +1270,18 @@
             "_score": 70
         },
         {
-            "title": "Senior Data Analyst",
-            "company": "Ruby Labs",
-            "url": "https://jobicy.com/jobs/143979-senior-data-analyst-4",
+            "title": "Principal Software Engineer - Data Lakes",
+            "company": "Fivetran",
+            "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
             "salary": null,
             "skills": [
-                "Python",
-                "SQL",
-                "R",
+                "Java",
+                "C++",
+                "RAG",
+                "AWS",
+                "Kubernetes",
                 "GCP",
-                "Airflow",
-                "Git",
-                "Tableau"
+                "Azure"
             ],
             "is_unicorn": false,
             "_score": 70
@@ -1643,38 +1675,6 @@
             "salary": "$70,200",
             "skills": [
                 "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Senior Integrations Engineer",
-            "company": "NTT DATA",
-            "url": "https://jobicy.com/jobs/149161-senior-integrations-engineer",
-            "salary": null,
-            "skills": [
-                "SQL",
-                "RAG",
-                "AWS",
-                "GCP",
-                "Azure",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "AI Enablement Lead [gn] Data Intelligence",
-            "company": "Actian",
-            "url": "https://jobicy.com/jobs/149049-ai-enablement-lead-gn-data-intelligence",
-            "salary": null,
-            "skills": [
-                "Python",
-                "LLM",
-                "RAG",
-                "LangChain",
-                "Docker",
-                "Kubernetes"
             ],
             "is_unicorn": false,
             "_score": 60
