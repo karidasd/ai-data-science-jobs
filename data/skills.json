@@ -1,93 +1,93 @@
 {
-    "last_updated": "2026-11-26 13:38",
-    "total_jobs_analyzed": 485,
+    "last_updated": "2026-11-27 13:34",
+    "total_jobs_analyzed": 480,
     "categories": {
         "Programming Languages": [
             {
                 "skill": "Python",
-                "count": 145,
-                "percentage": 29.9,
-                "trend": 0.5
+                "count": 129,
+                "percentage": 26.9,
+                "trend": -3.0
             },
             {
                 "skill": "SQL",
-                "count": 107,
-                "percentage": 22.1,
-                "trend": -3.8
+                "count": 99,
+                "percentage": 20.6,
+                "trend": -1.5
             },
             {
                 "skill": "C++",
-                "count": 27,
-                "percentage": 5.6,
-                "trend": 1.9
+                "count": 33,
+                "percentage": 6.9,
+                "trend": 1.3
             },
             {
                 "skill": "Java",
-                "count": 21,
-                "percentage": 4.3,
-                "trend": -0.7
+                "count": 22,
+                "percentage": 4.6,
+                "trend": 0.3
             },
             {
                 "skill": "R",
-                "count": 3,
-                "percentage": 0.6,
-                "trend": -0.2
+                "count": 4,
+                "percentage": 0.8,
+                "trend": 0.2
             }
         ],
         "AI & Machine Learning": [
             {
                 "skill": "RAG",
-                "count": 270,
-                "percentage": 55.7,
-                "trend": -7.7
+                "count": 289,
+                "percentage": 60.2,
+                "trend": 4.5
             },
             {
                 "skill": "LLM",
-                "count": 54,
-                "percentage": 11.1,
-                "trend": -0.9
-            },
-            {
-                "skill": "PyTorch",
-                "count": 11,
-                "percentage": 2.3,
-                "trend": -0.2
+                "count": 60,
+                "percentage": 12.5,
+                "trend": 1.4
             },
             {
                 "skill": "OpenAI API",
-                "count": 10,
-                "percentage": 2.1,
-                "trend": 0.2
+                "count": 15,
+                "percentage": 3.1,
+                "trend": 1.0
+            },
+            {
+                "skill": "PyTorch",
+                "count": 14,
+                "percentage": 2.9,
+                "trend": 0.6
             },
             {
                 "skill": "TensorFlow",
                 "count": 6,
                 "percentage": 1.2,
-                "trend": -0.9
+                "trend": 0.0
             },
             {
                 "skill": "LangChain",
                 "count": 5,
                 "percentage": 1.0,
-                "trend": -0.7
+                "trend": 0.0
+            },
+            {
+                "skill": "Hugging Face",
+                "count": 3,
+                "percentage": 0.6,
+                "trend": 0.4
             },
             {
                 "skill": "Scikit-Learn",
-                "count": 4,
-                "percentage": 0.8,
+                "count": 2,
+                "percentage": 0.4,
                 "trend": -0.4
             },
             {
                 "skill": "Pandas",
                 "count": 2,
                 "percentage": 0.4,
-                "trend": 0.2
-            },
-            {
-                "skill": "Hugging Face",
-                "count": 1,
-                "percentage": 0.2,
-                "trend": -0.2
+                "trend": 0.0
             },
             {
                 "skill": "NumPy",
@@ -99,68 +99,68 @@
         "Cloud & MLOps": [
             {
                 "skill": "Git",
-                "count": 189,
-                "percentage": 39.0,
-                "trend": 4.4
+                "count": 185,
+                "percentage": 38.5,
+                "trend": -0.5
             },
             {
                 "skill": "AWS",
-                "count": 100,
-                "percentage": 20.6,
-                "trend": 0.7
+                "count": 107,
+                "percentage": 22.3,
+                "trend": 1.7
             },
             {
                 "skill": "Kubernetes",
-                "count": 51,
-                "percentage": 10.5,
-                "trend": -1.9
+                "count": 60,
+                "percentage": 12.5,
+                "trend": 2.0
             },
             {
                 "skill": "Azure",
-                "count": 40,
-                "percentage": 8.2,
-                "trend": 1.2
+                "count": 39,
+                "percentage": 8.1,
+                "trend": -0.1
             },
             {
                 "skill": "Docker",
-                "count": 34,
-                "percentage": 7.0,
-                "trend": -2.1
+                "count": 37,
+                "percentage": 7.7,
+                "trend": 0.7
             },
             {
                 "skill": "GCP",
-                "count": 34,
-                "percentage": 7.0,
-                "trend": -0.2
-            },
-            {
-                "skill": "Spark",
-                "count": 30,
-                "percentage": 6.2,
-                "trend": 1.4
+                "count": 31,
+                "percentage": 6.5,
+                "trend": -0.5
             },
             {
                 "skill": "Snowflake",
-                "count": 27,
-                "percentage": 5.6,
-                "trend": 0.2
+                "count": 23,
+                "percentage": 4.8,
+                "trend": -0.8
             },
             {
-                "skill": "Airflow",
-                "count": 19,
-                "percentage": 3.9,
-                "trend": 0.2
+                "skill": "Spark",
+                "count": 21,
+                "percentage": 4.4,
+                "trend": -1.8
             },
             {
                 "skill": "Tableau",
-                "count": 19,
-                "percentage": 3.9,
-                "trend": 0.4
+                "count": 18,
+                "percentage": 3.8,
+                "trend": -0.1
+            },
+            {
+                "skill": "Airflow",
+                "count": 15,
+                "percentage": 3.1,
+                "trend": -0.8
             },
             {
                 "skill": "Power BI",
-                "count": 14,
-                "percentage": 2.9,
+                "count": 15,
+                "percentage": 3.1,
                 "trend": 0.2
             }
         ]
@@ -204,24 +204,6 @@
                 "Spark",
                 "Git",
                 "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 130
-        },
-        {
-            "title": "Partner Solutions Engineer",
-            "company": "Ultralytics",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/ultralytics/partner-solutions-engineer-london-222391",
-            "salary": "$30",
-            "skills": [
-                "Python",
-                "C++",
-                "PyTorch",
-                "RAG",
-                "OpenAI API",
-                "Docker",
-                "Azure",
-                "Git"
             ],
             "is_unicorn": false,
             "_score": 130
@@ -281,23 +263,6 @@
             "_score": 120
         },
         {
-            "title": "Forward Deployed Engineer",
-            "company": "Tailscale",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/tailscale/forward-deployed-engineer-196985",
-            "salary": "$1500",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Docker",
-                "Kubernetes",
-                "GCP",
-                "Azure",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 120
-        },
-        {
             "title": "Senior Data Analyst, GTM Analytics - US",
             "company": "Luxury Presence",
             "url": "https://jobicy.com/jobs/153937-senior-data-analyst-gtm-analytics-us",
@@ -309,6 +274,43 @@
                 "RAG",
                 "Snowflake",
                 "Tableau"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Agent Engineer - US Remote",
+            "company": "TRM Labs",
+            "url": "https://jobicy.com/jobs/164452-agent-engineer-us-remote",
+            "salary": "$200,000",
+            "skills": [
+                "Python",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "OpenAI API",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Senior Forward Deployed Engineer — Full Stack & AI",
+            "company": "Oowlish Technology",
+            "url": "https://jobicy.com/jobs/164404-senior-forward-deployed-engineer-full-stack-ai",
+            "salary": null,
+            "skills": [
+                "Python",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "OpenAI API",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 110
@@ -352,54 +354,6 @@
             "_score": 110
         },
         {
-            "title": "Backend Software Engineer — Secure Mission Systems",
-            "company": "Rackner",
-            "url": "https://jobicy.com/jobs/164109-backend-software-engineer-secure-mission-systems",
-            "salary": "$30",
-            "skills": [
-                "Python",
-                "SQL",
-                "LLM",
-                "RAG",
-                "Kubernetes",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 110
-        },
-        {
-            "title": "Software Engineer",
-            "company": "PolicyMe",
-            "url": "https://jobicy.com/jobs/156829-software-engineer-13",
-            "salary": "$110,000",
-            "skills": [
-                "Python",
-                "SQL",
-                "RAG",
-                "LangChain",
-                "AWS",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 110
-        },
-        {
-            "title": "People AI & Automation Specialist",
-            "company": "Pigment",
-            "url": "https://www.arbeitnow.fr/jobs/companies/pigment/people-ai-automation-specialist-paris-360640",
-            "salary": "$100",
-            "skills": [
-                "Python",
-                "SQL",
-                "LLM",
-                "RAG",
-                "AWS",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 110
-        },
-        {
             "title": "Tech Lead Full-Stack Rails Engineer",
             "company": "Mitre Media",
             "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
@@ -438,6 +392,39 @@
             "_score": 100
         },
         {
+            "title": "Data Scientist, Credit Risk Analytics (Sr. level open)",
+            "company": "Prosper",
+            "url": "https://jobicy.com/jobs/164425-data-scientist-credit-risk-analytics-sr-level-open",
+            "salary": "$129,000",
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Associate Director of Bioinformatics (Oncology Algorithms)",
+            "company": "Natera",
+            "url": "https://jobicy.com/jobs/164371-associate-director-of-bioinformatics-oncology-algorithms",
+            "salary": "$177,800",
+            "skills": [
+                "Python",
+                "PyTorch",
+                "TensorFlow",
+                "RAG",
+                "AWS",
+                "Docker",
+                "GCP",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
             "title": "Lead Data Engineer",
             "company": "Walker Sands",
             "url": "https://jobicy.com/jobs/164157-lead-data-engineer-2",
@@ -468,24 +455,6 @@
             "_score": 100
         },
         {
-            "title": "Sr. Data Engineer",
-            "company": "Carrot",
-            "url": "https://jobicy.com/jobs/153597-sr-data-engineer-3",
-            "salary": "$145,000",
-            "skills": [
-                "Python",
-                "SQL",
-                "RAG",
-                "AWS",
-                "GCP",
-                "Airflow",
-                "Git",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 100
-        },
-        {
             "title": "Compiler Engineer - Machine Learning Compiler",
             "company": "Mythic",
             "url": "https://jobicy.com/jobs/164256-compiler-engineer-machine-learning-compiler",
@@ -496,56 +465,6 @@
                 "PyTorch",
                 "LLM",
                 "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 100
-        },
-        {
-            "title": "Principal Software Engineer, SIEM (Ruby/Rails)",
-            "company": "Huntress",
-            "url": "https://jobicy.com/jobs/156769-principal-software-engineer-siem-ruby-rails",
-            "salary": "$215,000",
-            "skills": [
-                "RAG",
-                "AWS",
-                "GCP",
-                "Azure",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 100
-        },
-        {
-            "title": "Principal Software Engineer - Agentic SOC",
-            "company": "Huntress",
-            "url": "https://jobicy.com/jobs/156767-principal-software-engineer-agentic-soc",
-            "salary": "$215,000",
-            "skills": [
-                "LLM",
-                "RAG",
-                "AWS",
-                "Azure",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 100
-        },
-        {
-            "title": "Azure Data Engineer with Databricks & PySpark",
-            "company": "Jobgether",
-            "url": "https://www.arbeitnow.ch/jobs/companies/jobgether/azure-data-engineer-with-databricks-pyspark-switzerland-287961",
-            "salary": null,
-            "skills": [
-                "Python",
-                "SQL",
-                "Java",
-                "RAG",
-                "AWS",
-                "Azure",
-                "Airflow",
-                "Spark",
-                "Git",
-                "Power BI"
             ],
             "is_unicorn": false,
             "_score": 100
@@ -607,15 +526,15 @@
             "_score": 90
         },
         {
-            "title": "Analytics Engineer",
-            "company": "Reddit",
-            "url": "https://jobicy.com/jobs/156010-analytics-engineer-5",
-            "salary": "$164,200",
+            "title": "Staff Software Engineer",
+            "company": "AudioEye",
+            "url": "https://jobicy.com/jobs/157273-staff-software-engineer-11",
+            "salary": "$300",
             "skills": [
-                "Python",
                 "SQL",
-                "Airflow",
-                "Spark"
+                "RAG",
+                "AWS",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 90
@@ -669,68 +588,86 @@
             "_score": 90
         },
         {
-            "title": "Software Engineer- Agentic AI & Integrations",
-            "company": "WIN Home Inspection",
-            "url": "https://jobicy.com/jobs/164107-software-engineer-agentic-ai-integrations",
-            "salary": "$700",
+            "title": "Enterprise Account Executive - DACH",
+            "company": "chainguard",
+            "url": "https://www.arbeitnow.com/jobs/companies/chainguard/enterprise-account-executive-dach-171340",
+            "salary": null,
             "skills": [
-                "Python",
-                "SQL",
-                "LLM",
-                "RAG",
+                "OpenAI API",
                 "AWS",
+                "Docker",
+                "Kubernetes",
                 "GCP",
-                "Git"
+                "Azure",
+                "Spark",
+                "Git",
+                "Snowflake"
             ],
             "is_unicorn": false,
             "_score": 90
         },
         {
-            "title": "Senior Software Engineer (Fundraising) — Remote",
-            "company": "GiveDirectly",
-            "url": "https://jobicy.com/jobs/156858-senior-software-engineer-fundraising-remote",
-            "salary": "$181,130",
-            "skills": [
-                "Python",
-                "SQL",
-                "RAG",
-                "AWS"
-            ],
-            "is_unicorn": false,
-            "_score": 90
-        },
-        {
-            "title": "Mid-Senior Full-Stack AI Product Engineer",
-            "company": "Spatial Commerce Ltd",
-            "url": "https://www.arbeitnow.com/jobs/companies/spatial-commerce-ltd/mid-senior-full-stack-ai-product-engineer-berlin-352833",
+            "title": "Senior Software Engineer - Perception",
+            "company": "Outsight",
+            "url": "https://www.arbeitnow.fr/jobs/companies/outsight/senior-software-engineer-perception-paris-465218",
             "salary": null,
             "skills": [
                 "Python",
-                "PyTorch",
+                "C++",
                 "LLM",
                 "RAG",
                 "OpenAI API",
                 "AWS",
                 "Docker",
-                "GCP",
+                "Kubernetes",
                 "Git"
             ],
             "is_unicorn": false,
             "_score": 90
         },
         {
-            "title": "(Senior) Technical Account Manager - EMEA (f/m/d)",
-            "company": "adjoe",
-            "url": "https://www.arbeitnow.com/jobs/companies/adjoe/senior-technical-account-manager-emea-hamburg-215452",
-            "salary": "$100",
+            "title": "Senior DevSecOps Engineer",
+            "company": "360Learning",
+            "url": "https://www.arbeitnow.fr/jobs/companies/360learning/remote-senior-devsecops-engineer-349434",
+            "salary": "$240",
             "skills": [
-                "SQL",
-                "Java",
+                "Python",
+                "RAG",
                 "AWS",
-                "Spark"
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 90
+        },
+        {
+            "title": "Senior Security Engineer, AI & Application Security",
+            "company": "Datasnipper",
+            "url": "https://www.arbeitnow.nl/jobs/companies/datasnipper/senior-security-engineer-ai-application-security-amsterdam-482827",
+            "salary": "$100",
+            "skills": [
+                "Python",
+                "LLM",
+                "Azure",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Director, Credit Risk Analytics",
+            "company": "Prosper",
+            "url": "https://jobicy.com/jobs/164434-director-credit-risk-analytics",
+            "salary": "$215K",
+            "skills": [
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
         },
         {
             "title": "Data Engineer",
@@ -777,45 +714,13 @@
             "_score": 80
         },
         {
-            "title": "Director, Digital Analytics & Experimentation",
-            "company": "iFIT",
-            "url": "https://jobicy.com/jobs/163467-director-digital-analytics-experimentation",
-            "salary": "$150,000",
-            "skills": [
-                "SQL",
-                "AWS",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Analytics Engineer",
+            "title": "Full Stack Software Engineer",
             "company": "BetterHelp",
-            "url": "https://jobicy.com/jobs/163386-senior-analytics-engineer-4",
-            "salary": "$135,000",
+            "url": "https://jobicy.com/jobs/164392-full-stack-software-engineer-4",
+            "salary": "$110,000",
             "skills": [
-                "Python",
                 "SQL",
                 "RAG",
-                "Airflow",
-                "Git",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Lead Data Scientist",
-            "company": "Life360",
-            "url": "https://jobicy.com/jobs/155971-lead-data-scientist-2",
-            "salary": "$218,000",
-            "skills": [
-                "Python",
-                "LLM",
-                "RAG",
-                "Scikit-Learn",
-                "Spark",
                 "Git"
             ],
             "is_unicorn": false,
@@ -939,118 +844,19 @@
             "_score": 80
         },
         {
-            "title": "Engineering Manager, Experimentation",
-            "company": "LaunchDarkly",
-            "url": "https://jobicy.com/jobs/164055-engineering-manager-experimentation-2",
-            "salary": "$191,800",
-            "skills": [
-                "Python",
-                "Java",
-                "RAG",
-                "Airflow",
-                "Git",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Business Development Director – Supply Chain Center of Excellence (CoE)",
-            "company": "Cognite",
-            "url": "https://www.arbeitnow.com/jobs/companies/cognite/business-development-director-supply-chain-center-of-excellence-coe-382952",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "Spark",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Technical Program Manager",
-            "company": "Volta",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/volta/senior-technical-program-manager-london-435737",
-            "salary": "$10",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Internal Automation Engineer",
-            "company": "Volta",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/volta/senior-internal-automation-engineer-london-149376",
-            "salary": "$10",
-            "skills": [
-                "Python",
-                "LLM",
-                "AWS"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Business Development Director – Supply Chain Center of Excellence (CoE)",
-            "company": "Cognite",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/cognite/business-development-director-supply-chain-center-of-excellence-coe-152702",
-            "salary": "$100",
-            "skills": [
-                "RAG",
-                "Spark",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Java/Kotlin Developer",
-            "company": "Malt",
-            "url": "https://www.arbeitnow.fr/jobs/companies/malt/senior-java-kotlin-developer-paris-496268",
+            "title": "General Interest - Don't See a Role",
+            "company": "The Robotics Company",
+            "url": "https://www.arbeitnow.ch/jobs/companies/the-robotics-company/general-interest-dont-see-a-role-zurich-54842",
             "salary": null,
             "skills": [
                 "Python",
-                "SQL",
-                "Java",
+                "C++",
+                "PyTorch",
                 "RAG",
-                "Kubernetes",
+                "OpenAI API",
+                "Hugging Face",
                 "GCP",
-                "Spark",
                 "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Fullstack Engineer",
-            "company": "Malt",
-            "url": "https://www.arbeitnow.fr/jobs/companies/malt/senior-fullstack-engineer-paris-38477",
-            "salary": null,
-            "skills": [
-                "Python",
-                "SQL",
-                "Java",
-                "RAG",
-                "Kubernetes",
-                "GCP",
-                "Spark",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Field Marketing Coordinator",
-            "company": "Pigment",
-            "url": "https://www.arbeitnow.fr/jobs/companies/pigment/field-marketing-coordinator-paris-476792",
-            "salary": "$100",
-            "skills": [
-                "LLM",
-                "AWS",
-                "Snowflake"
             ],
             "is_unicorn": false,
             "_score": 80
@@ -1244,18 +1050,61 @@
             "_score": 70
         },
         {
-            "title": "Senior Data Engineer - Advertising",
-            "company": "Truelogic",
-            "url": "https://jobicy.com/jobs/163404-senior-data-engineer-advertising",
-            "salary": null,
+            "title": "Principal Engineering Manager, AI Care",
+            "company": "Pair Team",
+            "url": "https://jobicy.com/jobs/164486-principal-engineering-manager-ai-care",
+            "salary": "$150",
             "skills": [
-                "Python",
-                "SQL",
+                "LLM",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Staff Engineer, Full Stack (Trust, Safety & Risk)",
+            "company": "Phantom",
+            "url": "https://jobicy.com/jobs/154084-staff-engineer-full-stack-trust-safety-risk",
+            "salary": "$150",
+            "skills": [
                 "RAG",
-                "AWS",
-                "GCP",
-                "Azure",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Engineering Manager - Canada",
+            "company": "Ashby",
+            "url": "https://jobicy.com/jobs/151633-engineering-manager-canada",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Engineering Manager - UK",
+            "company": "Ashby",
+            "url": "https://jobicy.com/jobs/151620-engineering-manager-uk",
+            "salary": "$100",
+            "skills": [
+                "RAG",
                 "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Engineering Manager - Americas",
+            "company": "Ashby",
+            "url": "https://jobicy.com/jobs/151638-engineering-manager-americas",
+            "salary": "$100",
+            "skills": [
+                "RAG",
+                "Snowflake"
             ],
             "is_unicorn": false,
             "_score": 70
@@ -1344,113 +1193,76 @@
             "_score": 70
         },
         {
-            "title": "Senior Software Engineer, Data Platform",
-            "company": "Attentive",
-            "url": "https://jobicy.com/jobs/164153-senior-software-engineer-data-platform-3",
-            "salary": "$193,461",
-            "skills": [
-                "RAG",
-                "AWS",
-                "Kubernetes",
-                "Spark",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Tech Lead Manager, Consumer Facing Web Products",
-            "company": "NerdWallet",
-            "url": "https://jobicy.com/jobs/164110-tech-lead-manager-consumer-facing-web-products",
-            "salary": null,
-            "skills": [
-                "SQL",
-                "RAG",
-                "AWS",
-                "Docker",
-                "Kubernetes",
-                "GCP",
-                "Azure"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Chief Technology Officer - US-Based",
-            "company": "Toptal",
-            "url": "https://jobicy.com/jobs/153888-chief-technology-officer-us-based",
-            "salary": "$200",
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Full Stack Engineer",
-            "company": "Roboflow",
-            "url": "https://jobicy.com/jobs/151415-full-stack-engineer",
-            "salary": "$4000",
-            "skills": [
-                "Python",
-                "TensorFlow",
-                "AWS",
-                "Docker",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Creative Technologist",
-            "company": "Black Forest Labs",
-            "url": "https://www.arbeitnow.com/jobs/companies/black-forest-labs/creative-technologist-freiburg-122472",
-            "salary": "$220K",
-            "skills": [
-                "Python",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Enterprise Account Director (New Business)",
-            "company": "Vonage",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/vonage/enterprise-account-director-new-business-london-334819",
-            "salary": "$10",
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Solutions Architect Conso - Paris",
-            "company": "Pigment",
-            "url": "https://www.arbeitnow.fr/jobs/companies/pigment/solutions-architect-conso-paris-306352",
-            "salary": "$100",
-            "skills": [
-                "AWS",
-                "Snowflake"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Junior Cloud Operations Engineer (all genders) CH",
-            "company": "BSI Software",
-            "url": "https://www.arbeitnow.ch/jobs/companies/bsi-software/remote-junior-cloud-operations-engineer-all-genders-ch-baar-288099",
+            "title": "Senior Azure Cloud DevOps Engineer – Kubernetes, Terraform & C#/.NET (gn)",
+            "company": "New Monday GmbH",
+            "url": "https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/senior-azure-cloud-devops-engineer-kubernetes-terraform-c-net-gn-berlin-68473",
             "salary": null,
             "skills": [
                 "Python",
+                "LLM",
                 "RAG",
-                "AWS",
                 "Docker",
                 "Kubernetes",
                 "Azure",
                 "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Security & Compliance Engineer",
+            "company": "Vega",
+            "url": "https://www.arbeitnow.co.uk/jobs/companies/vega/senior-security-compliance-engineer-london-231370",
+            "salary": "$20",
+            "skills": [
+                "Python",
+                "Java"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Backend Developer (Go) — Full Remote, European Timezones Only (UTC−1 to UTC+3)",
+            "company": "Jobtome",
+            "url": "https://www.arbeitnow.ch/jobs/companies/jobtome/senior-backend-developer-go-full-remote-european-timezones-only-utc1-to-utc3-mendrisio-337104",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Software Engineer (Java) - Security",
+            "company": "Teampicnic",
+            "url": "https://www.arbeitnow.nl/jobs/companies/teampicnic/software-engineer-java-security-amsterdam-78497",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Product Manager, Fulfilment",
+            "company": "Nivoda",
+            "url": "https://www.arbeitnow.nl/jobs/companies/nivoda/senior-product-manager-fulfilment-amsterdam-439587",
+            "salary": "$300",
+            "skills": [
+                "LLM",
+                "Snowflake"
             ],
             "is_unicorn": false,
             "_score": 70
@@ -1479,6 +1291,36 @@
                 "LLM",
                 "RAG",
                 "Kubernetes"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Staff Machine Learning Engineer, Recommendation Systems - Quora",
+            "company": "Quora",
+            "url": "https://jobicy.com/jobs/157306-staff-machine-learning-engineer-recommendation-systems-quora",
+            "salary": "$219,989",
+            "skills": [
+                "Python",
+                "C++",
+                "LLM",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Principal Machine Learning Engineer",
+            "company": "hims &#038; hers",
+            "url": "https://jobicy.com/jobs/164398-principal-machine-learning-engineer-2",
+            "salary": null,
+            "skills": [
+                "Python",
+                "PyTorch",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 60
@@ -1594,15 +1436,60 @@
             "_score": 60
         },
         {
-            "title": "Staff Machine Learning Engineer",
-            "company": "BetterHelp",
-            "url": "https://jobicy.com/jobs/163394-staff-machine-learning-engineer-3",
-            "salary": "$170,000",
+            "title": "Software Engineer",
+            "company": "Twilio",
+            "url": "https://jobicy.com/jobs/164483-software-engineer-15",
+            "salary": null,
             "skills": [
                 "Python",
                 "SQL",
-                "LLM",
-                "RAG"
+                "Java",
+                "RAG",
+                "AWS",
+                "Kubernetes"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "VP of Engineering",
+            "company": "Oddball",
+            "url": "https://jobicy.com/jobs/157288-vp-of-engineering-2",
+            "salary": "$200,000",
+            "skills": [
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Staff Software Engineer - Revenue Intelligence",
+            "company": "Cloudbeds",
+            "url": "https://jobicy.com/jobs/164407-staff-software-engineer-revenue-intelligence",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Kubernetes",
+                "Airflow"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Security Engineer",
+            "company": "Fever",
+            "url": "https://jobicy.com/jobs/164365-security-engineer-4",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes"
             ],
             "is_unicorn": false,
             "_score": 60
@@ -1681,14 +1568,41 @@
             "_score": 60
         },
         {
-            "title": "Senior Software Engineer- IAM & Billing (m/f/d)",
-            "company": "gridscale GmbH",
-            "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/senior-software-engineer-iam-billing-koln-435518",
+            "title": "Design Engineer",
+            "company": "Vega",
+            "url": "https://www.arbeitnow.co.uk/jobs/companies/vega/design-engineer-london-295236",
+            "salary": "$20",
+            "skills": [
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Build and Test Automation Engineer",
+            "company": "Disguisetechnologiesltd",
+            "url": "https://www.arbeitnow.co.uk/jobs/companies/disguisetechnologiesltd/build-and-test-automation-engineer-london-211474",
+            "salary": null,
+            "skills": [
+                "Python",
+                "C++",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Application Operations Engineer",
+            "company": "Outsight",
+            "url": "https://www.arbeitnow.fr/jobs/companies/outsight/application-operations-engineer-paris-325531",
             "salary": null,
             "skills": [
                 "Python",
                 "SQL",
-                "RAG",
+                "AWS",
                 "Docker",
                 "Kubernetes",
                 "Git"
@@ -1697,42 +1611,74 @@
             "_score": 60
         },
         {
-            "title": "EMEA Counsel",
-            "company": "Clay Labs",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/clay-labs/emea-counsel-london-413819",
-            "salary": "$115",
+            "title": "Founding Product Manager",
+            "company": "Lemrock",
+            "url": "https://www.arbeitnow.fr/jobs/companies/lemrock/founding-product-manager-paris-449894",
+            "salary": "$100",
             "skills": [
-                "OpenAI API"
+                "RAG"
             ],
             "is_unicorn": false,
             "_score": 60
         },
         {
-            "title": "Senior Software Architect",
-            "company": "Hawkeyeinnovations",
-            "url": "https://www.arbeitnow.co.uk/jobs/companies/hawkeyeinnovations/senior-software-architect-united-kingdom-337196",
+            "title": "Stage Développement C++ & Intelligence Artificielle générative",
+            "company": "Sogeclair",
+            "url": "https://www.arbeitnow.fr/jobs/companies/sogeclair/stage-developpement-c-intelligence-artificielle-generative-toulouse-370501",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "C++",
+                "LLM",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Senior Business Analyst (m/w/d) Sicherheit im Bahnumfeld (Ref.Nr.: 48415)",
+            "company": "Wavestone Germany AG",
+            "url": "https://www.arbeitnow.ch/jobs/companies/wavestone-germany-ag/senior-business-analyst-sicherheit-im-bahnumfeld-refnr-48415-bern-388596",
+            "salary": null,
+            "skills": [
+                "SQL",
+                "RAG",
+                "Azure",
+                "Spark",
+                "Snowflake",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Engineering Intern",
+            "company": "The Robotics Company",
+            "url": "https://www.arbeitnow.ch/jobs/companies/the-robotics-company/engineering-intern-zurich-91341",
             "salary": null,
             "skills": [
                 "Python",
                 "C++",
                 "PyTorch",
-                "LLM",
-                "RAG",
-                "AWS"
+                "OpenAI API",
+                "Hugging Face",
+                "GCP"
             ],
             "is_unicorn": false,
             "_score": 60
         },
         {
-            "title": "Director, Sales Engineering (Southern Europe)",
-            "company": "Pingidentity",
-            "url": "https://www.arbeitnow.fr/jobs/companies/pingidentity/director-sales-engineering-southern-europe-264855",
+            "title": "Cloud and Platform Engineer",
+            "company": "SwissPeak Partners GmbH",
+            "url": "https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/cloud-and-platform-engineer-zurich-534",
             "salary": null,
             "skills": [
+                "Python",
                 "RAG",
-                "AWS",
+                "Docker",
                 "Kubernetes",
-                "GCP",
                 "Azure",
                 "Git"
             ],
@@ -1740,20 +1686,66 @@
             "_score": 60
         },
         {
-            "title": "AI Engineer Intern (2027)",
-            "company": "Qantev",
-            "url": "https://www.arbeitnow.fr/jobs/companies/qantev/ai-engineer-intern-2027-paris-102648",
+            "title": "Staff DevOps Engineer, AI Security",
+            "company": "zscaler",
+            "url": "https://www.arbeitnow.nl/jobs/companies/zscaler/staff-devops-engineer-ai-security-105468",
             "salary": null,
             "skills": [
                 "Python",
-                "Java",
-                "C++",
                 "LLM",
                 "RAG",
-                "LangChain"
+                "AWS",
+                "Kubernetes",
+                "Git"
             ],
             "is_unicorn": false,
             "_score": 60
+        },
+        {
+            "title": "Software Engineer (Python & Cloud)",
+            "company": "GIGA STORAGE",
+            "url": "https://www.arbeitnow.nl/jobs/companies/giga-storage/software-engineer-python-cloud-amsterdam-185139",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 60
+        },
+        {
+            "title": "Full-Stack Developer",
+            "company": "Fluence International, Inc.",
+            "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+            "salary": null,
+            "skills": [
+                "LLM",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 50
+        },
+        {
+            "title": "Lead Growth Analyst",
+            "company": "TrustedHousesitters",
+            "url": "https://jobicy.com/jobs/157427-lead-growth-analyst",
+            "salary": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "R",
+                "LLM",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 50
         }
     ]
 }
